@@ -1,13 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5655/uni-cms?stringtype=unspecified
+    url: jdbc:postgresql://localhost:5655/dev-uni-cms?stringtype=unspecified
     username: postgres
     password: 22305
     hibernate:
       ddl-auto: none
 
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8080
